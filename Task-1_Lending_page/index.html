@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalam&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/public/images/s.ico">
+    <style>
+        header{
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+        }
+        .navbar-brand{
+            font-family: 'UnifrakturMaguntia', cursive;
+        }
+        @media screen and (orientation:landscape){
+            #navitems{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+            #zo{
+                width: 80%;
+            }
+        }
+        @media screen and(orientation:portrait){
+            #zo{
+                width: 95%;
+            }
+        }
+        #main{
+            background: url(public/images/hero-banner.jpg);
+            background-size: cover;
+            background-position: center center;
+            height: 550px;
+        }
+        .card{
+            width: 400px;
+        }
+        .card a{
+            color: unset;
+            text-decoration: unset  ;
+        }
+        .card-body a{
+            font-family: 'Courgette', cursive;
+        }
+        section{
+            height: 4450px;
+        }
+        footer{
+            height: 500px;
+        }
+        .nav-link:hover{
+            color: orange;
+        }
+        .col a{
+            text-decoration: unset;
+            color: unset;
+        }
+        #smhea:hover{
+            color: orange;
+            transition: 1s;
+        }
+    </style>
+</head>
+<body class="container-fluid">
+    <header class="d-flex justify-content-center bg-white ">
+        <div id="zo" class="container-fluid" >
+            <nav class="navbar navbar-expand-lg p-4 ">
+                <div class="navbar-brand fs-1 fw-bold" style="margin-left: -35px;">Sensive</div>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><span class="navbar-toggler-icon"></span></button>
+                <div class="navbar-collapse collapse" id="menu">
+                        <div id="navitems">
+                            <ol class=" navbar-nav">
+                                <li class="nav-item me-3"><a href="#" class="nav-link"><span class="fw-bold" style="color: orange;">Home</span></a></li>
+                                <li class="nav-item me-3"><a href="#" class="nav-link"><span class="fw-bold">Pages</span></a></li>
+                                <li class="nav-item me-3"><a href="#" class="nav-link"><span class="fw-bold">Post</span></a></li>
+                                <li class="nav-item me-3"><a href="#" class="nav-link"><span class="fw-bold">About</span></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"><span class="fw-bold">Dashboard</span></a></li>
+                            </ol>
+                        </div>
+                   
+                </div>
+                
+            </nav>
+        </div>
+    </header>
+    <section class="d-flex justify-content-center">
+        <div id="zo">
+            <div id="main" class="d-flex justify-content-center flex-column align-items-center"  >
+                <p class="fs-4 fw-bold text-white">Tours & Travels</p>
+                <p class="fs-1 text-white fw-bold">Amazing Places on earth</p>
+                <p class="text-white fs-5">December 12, 2018</p>
+            </div>
+            <div>
+                
+                <div class="mt-5 d-flex justify-content-center">
+                    <div class="card border-0 me-4">
+                        <img src="public/images/blog-slide1.jpg" width="100%" height="100%" alt="">
+                        <div class="card-header bg-white text-center border-0">
+                            <a href="#"><button class=" btn btn-dark rounded-0 text-warning w-50">FASHION</button></a>
+                        </div>
+                        <div class="card-body bg-white fs-5 fw-bold border-0 d-flex justify-content-center">
+                            <a href="#" class="text-center">New york fashion week's continued the evolution </a>
+                        </div>
+                        <div class="card-footer bg-white border-0 d-flex justify-content-center">
+                            <p>2 days ago</p>
+                        </div>
+                    </div>
+        
+                    <div class="card border-0 me-4">
+                        <img src="public/images/blog-slide2.jpg" width="100%" height="100%" alt="">
+                        <div class="card-header bg-white text-center border-0">
+                            <a href="#"><button class=" btn btn-dark rounded-0 text-warning w-50">FASHION</button></a>
+                        </div>
+                        <div class="card-body fs-5 fw-bold bg-white border-0 d-flex justify-content-center">
+                            <a href="#" class="text-center">New york fashion week's continued the evolution </a>
+                        </div>
+                        <div class="card-footer bg-white border-0 d-flex justify-content-center">
+                            <p>2 days ago</p>
+                        </div>
+                    </div>
+        
+                    <div class="card border-0">
+                        <img src="public/images/blog-slide3.jpg" width="100%" height="100%" alt="">
+                        <div class="card-header bg-white text-center border-0">
+                            <a href="#"><button class=" btn btn-dark rounded-0 text-warning w-50">FASHION</button></a>
+                        </div>
+                        <div class="card-body bg-white fs-5 fw-bold border-0 d-flex justify-content-center">
+                            <a href="#" class="text-center">New york fashion week's continued the evolution </a>
+                        </div>
+                        <div class="card-footer  bg-white border-0 d-flex justify-content-center">
+                            <p>2 days ago</p>
+                        </div>
+                    </div>
+                </div>
+    
+    
+            </div>
+            <div class="row m-0 mt-5 mb-5" style="margin-bottom: 250px;">
+                <div class="col-8  me-4 " style="height: 750px;">
+                    <div class="row mb-5">
+                        <div class="col">
+                                    <div class="row">
+                                <div class="col d-flex align-items-end  m-0 p-0" style="height: 400px;overflow: hidden;background-image: url(public/images/blog1.jpeg);background-position: center; background-size: cover;">
+                                    <div class="bg-white d-flex justify-content-around align-items-center" style="width: 500px; height: 50px;">
+                                        <span class="bi bi-person"> <a href="#">Admin</a></span>
+                                        <span class="bi bi-calendar"> <a href="#">January 12,2019</a></span>
+                                        <span class="bi bi-cloud"> <a href="#">2 comments</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row  " style="margin-top: 25px;">
+                                <div class="col">
+                                    <div class=" rounded-0" style="margin-left: -12px;">
+                                        <div class="card-header border-0 ">
+                                            <div class="card-title fw-bold fs-3 mb-2"><a href="#">BCCI ends speculations, retains Rahul Dravid as India's head.</a></div>
+                                            <div class="card-subtitle fs-5 mb-3 "><a href="#">Tag: travel</a>, <a href="#">life style</a>, <a href="#">technology</a>, <a href="#">fashion</a></div>
+                                        </div>
+                                        <div class="card-body fs-5  border-0">
+                                            <p>Over yielding doesn't so moved green saw meat hath fish he him from given yielding lesser cattle were fruitful lights. Given let have, lesser their made him above gathered dominion sixth. Creeping deep said can't called second. Air created seed heaven sixth created living</p>
+                                        </div>
+                                        <div class="card-footer mt-3 border-0">
+                                            <a href="#"><button class="btn btn-lg btn-dark rounded-0 w-25">Read more <span class="bi bi-arrow-right"></span>
+                                            </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="row mb-5">
+                        <div class="col">
+                                    <div class="row">
+                                <div class="col d-flex align-items-end  m-0 p-0" style="height: 400px;overflow: hidden;background-image: url(public/images/blog2.jpg);background-position: center; background-size: cover;">
+                                    <div class="bg-white d-flex justify-content-around align-items-center" style="width: 500px; height: 50px;">
+                                        <span class="bi bi-person"> <a href="#">Admin</a></span>
+                                        <span class="bi bi-calendar"> <a href="#">January 12,2019</a></span>
+                                        <span class="bi bi-cloud"> <a href="#">2 comments</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row " style="margin-top: 25px;">
+                                <div class="col">
+                                    <div class=" rounded-0" style="margin-left: -12px;">
+                                        <div class="card-header border-0 ">
+                                            <div class="card-title fw-bold fs-3 mb-2"><a href="#">BCCI ends speculations, retains Rahul Dravid as India's head.</a></div>
+                                            <div class="card-subtitle fs-5 mb-3 ">Tag: <a href="#">travel</a>, <a href="#">life style</a>, <a href="#">technology</a>, <a href="#">fashion</a></div>
+                                        </div>
+                                        <div class="card-body fs-5  border-0">
+                                            <p>Over yielding doesn't so moved green saw meat hath fish he him from given yielding lesser cattle were fruitful lights. Given let have, lesser their made him above gathered dominion sixth. Creeping deep said can't called second. Air created seed heaven sixth created living</p>
+                                        </div>
+                                        <div class="card-footer mt-3 border-0">
+                                            <a href="#"><button class="btn btn-lg btn-dark rounded-0 w-25">Read more <span class="bi bi-arrow-right"></span>
+                                            </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-5">
+                        <div class="col">
+                                    <div class="row">
+                                <div class="col d-flex align-items-end  m-0 p-0" style="height: 400px;overflow: hidden;background-image: url(public/images/blog3.jpg);background-position: center; background-size: cover;">
+                                    <div class="bg-white d-flex justify-content-around align-items-center" style="width: 500px; height: 50px;">
+                                        <span class="bi bi-person"> <a href="#">Admin</a></span>
+                                        <span class="bi bi-calendar"> <a href="#">January 12,2019</a></span>
+                                        <span class="bi bi-cloud"> <a href="#">2 comments</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row " style="margin-top: 25px;">
+                                <div class="col">
+                                    <div class=" rounded-0" style="margin-left: -12px;">
+                                        <div class="card-header border-0 ">
+                                            <div class="card-title fw-bold fs-3 mb-2"><a href="#">Fast cars and rickety bridges as he grand tour returns.</a></div>
+                                            <div class="card-subtitle fs-5 mb-3 ">Tag: <a href="#">travel</a>, <a href="#">life style</a>, <a href="#">technology</a>, <a href="#">fashion</a></div>
+                                        </div>
+                                        <div class="card-body fs-5  border-0">
+                                            <p>Over yielding doesn't so moved green saw meat hath fish he him from given yielding lesser cattle were fruitful lights. Given let have, lesser their made him above gathered dominion sixth. Creeping deep said can't called second. Air created seed heaven sixth created living</p>
+                                        </div>
+                                        <div class="card-footer mt-3 border-0">
+                                            <a href="#"><button class="btn btn-lg btn-dark rounded-0 w-25">Read more <span class="bi bi-arrow-right"></span>
+                                            </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-5">
+                        <div class="col">
+                                    <div class="row">
+                                <div class="col d-flex align-items-end  m-0 p-0" style="height: 400px;overflow: hidden;background-image: url(public/images/blog4.jpg);background-position: center; background-size: cover;">
+                                    <div class="bg-white d-flex justify-content-around align-items-center" style="width: 500px; height: 50px;">
+                                        <span class="bi bi-person"> <a href="#">Admin</a></span>
+                                        <span class="bi bi-calendar"> <a href="#">January 12,2019</a></span>
+                                        <span class="bi bi-cloud"> <a href="#"> 6 comments</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row " style="margin-top: 25px;">
+                                <div class="col">
+                                    <div class=" rounded-0" style="margin-left: -12px;">
+                                        <div class="card-header border-0 ">
+                                            <div class="card-title fw-bold fs-3 mb-2"><a href="#">Harvey Weinstein's senual assault trial set for May.</a></div>
+                                            <div class="card-subtitle fs-5 mb-3 ">Tag: <a href="#">travel</a>, <a href="#">life style</a>, <a href="#">technology</a>, <a href="#">fashion</a></div>
+                                        </div>
+                                        <div class="card-body fs-5  border-0">
+                                            <p>Over yielding doesn't so moved green saw meat hath fish he him from given yielding lesser cattle were fruitful lights. Given let have, lesser their made him above gathered dominion sixth. Creeping deep said can't called second. Air created seed heaven sixth created living</p>
+                                        </div>
+                                        <div class="card-footer mt-3 border-0">
+                                            <a href="#"><button class="btn btn-lg btn-dark rounded-0 w-25">Read more <span class="bi bi-arrow-right"></span>
+                                            </button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 80px;">
+                        <div class="col d-flex justify-content-center">
+                            <ul class="pagination pagination-lg">
+                                <li class="page-item"><a class="page-link" href="">&laquo;</a></li>
+                                <li class="page-item"><a class="page-link active"  href="">1</a></li>
+                                <li class="page-item"><a class="page-link" href="">2</a></li>
+                                <li class="page-item"><a class="page-link" href="">3</a></li>
+                                <li class="page-item"><a class="page-link" href="">4</a></li>
+                                <li class="page-item"><a class="page-link" href="">5</a></li>
+                                <li class="page-item"><a class="page-link" href="">...</a></li>
+                                <li class="page-item"><a class="page-link" href="">&raquo;</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row bg-secondary-subtle mb-4 p-4" style="height: 250px;">
+                        <div class="col d-flex justify-content-center flex-column">
+                            <div class="mb-4">Newsletter</div>
+                            <div><input type="email" placeholder="Enter email" class="form-control rounded-0 form-control-lg border-2 border-secondary-subtle mb-2">
+                            <button class="btn btn-dark text-warning btn-lg rounded-0 w-100">SUBSCRIBE</button></div>
+                        </div>
+                    </div>
+                
+                    <div class="row bg-secondary-subtle  mb-4 p-4" style="height: 510px;;">
+                        <div class="col d-flex justify-content-center flex-column">
+                            <div class="mb-5">Category</div>
+                            <button class="btn btn-lg btn-light fs-6 w-100 d-flex justify-content-between rounded-0 mb-3" ><span>Technology</span><span>(03)</span></button>
+                            <button class="btn btn-lg btn-light fs-6 w-100 d-flex justify-content-between rounded-0 mb-3" ><span>Software</span><span>(09)</span></button>
+                            <button class="btn btn-lg btn-light fs-6 w-100 d-flex justify-content-between rounded-0 mb-3" ><span>Lifestyle</span><span>(12)</span></button>
+                            <button class="btn btn-lg btn-light fs-6 w-100 d-flex justify-content-between rounded-0 mb-3" ><span>Shopping</span><span>(02)</span></button>
+                            <button class="btn btn-lg btn-light fs-6 w-100 d-flex justify-content-between rounded-0 " ><span>Food</span><span>(10)</span></button>
+                        </div>
+                    </div>
+                    <div class="row bg-secondary-subtle mb-4 p-4">
+                        <div class="col">
+                            <div style="margin-top: 50px;">Popular Post</div>
+                            <div style="height: 150px; background-image: url(public/images/thumb1.jpg); background-size: cover;" class="d-flex align-items-end">
+                            <div style="height: 25px; width: 160px; font-size: 12px;" class=" text-center d-flex justify-content-center align-items-center bg-white"><a href="#">Adam Colinge </a> &nbsp;|&nbsp; <a href="#"> Dec 15</a></div></div>
+                            <div class="mt-4 mb-4 fw-bold"><a href="#"><span id="smhea">Accused of assaulting flight attendant miktake alaways</span></a></div>
+
+                            <div style="height: 150px; background-image: url(public/images/thumb2.jpg); background-size: cover;" class="d-flex align-items-end">
+                                <div style="height: 25px; width: 160px; font-size: 12px;" class=" text-center d-flex justify-content-center align-items-center bg-white"><a href="#">Adam Colinge </a> &nbsp;|&nbsp; <a href="#"> Dec 15</a></div></div>
+                                <div class="mt-4 mb-4 fw-bold"><a href="#"><span id="smhea">Tennessee outback steakhouse the worker diagnosed</span></a></div>
+                            
+                                <div style="height: 150px; background-image: url(public/images/thumb3.jpg); background-size: cover;" class="d-flex align-items-end">
+                                    <div style="height: 25px; width: 160px; font-size: 12px;" class=" text-center d-flex justify-content-center align-items-center bg-white"><a href="#">Adam Colinge </a> &nbsp;|&nbsp; <a href="#"> Dec 15</a></div></div>
+                                <div class="mt-4 mb-4 fw-bold"><a href="#"><span id="smhea">Tennessee outback steakhouse the worker diagnosed</span></a></div>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="row bg-secondary-subtle p-4">
+                        <div class="col">
+                            <div style="margin-top: 50px;" class="mb-4">Popular Post</div>
+                            <div>
+                                <button class="btn btn-light btn-sm  btn-outline-dark border-0  rounded-0 mt-2 mb-2 me-2">project</button>
+                                <button class="btn btn-sm btn-light btn-outline-dark border-0  rounded-0 mt-2 mb-2 me-2">technology</button>
+                                <button class="btn btn-sm btn-light btn-outline-dark border-0  rounded-0 mt-2 mb-2 me-2">travel</button>
+                                <button class="btn btn-sm btn-light btn-outline-dark border-0  rounded-0 mt-2 mb-2 me-2">software</button>
+                                <button class="btn btn-sm btn-light btn-outline-dark border-0  rounded-0 mt-2 mb-2 me-2">life style</button>
+                                <button class="btn btn-sm btn-light btn-outline-dark border-0  rounded-0 mt-2 mb-2 me-2">design</button>
+                                <button class="btn btn-sm btn-light btn-outline-dark border-0  rounded-0 mt-2 mb-2 me-2">illustration</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                
+                
+            </div>
+            
+
+    </section>
+    <footer class="bg-black text-white d-flex justify-content-center">
+        <div id="zo">
+            <div style="margin-top: 100px;">
+                <div class="row m-0">
+                    <div class="col-7 me-5 ">
+                        <div class="row">
+                            <div class="col-5 me-4">
+                                <div class="fw-bold fs-4 mb-4">About Us</div>
+                                <p style="color: grey;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                            </div>
+                            <div class="col">
+                                <div class="fw-bold fs-4 mb-4">Newsletter</div>
+                                <p  style="color: grey;">Stay update with our latest</p>
+                                <div  style="color: grey;" class="input-group">
+                                    <input type="email" placeholder="Enter Email" class="form-control border-0 rounded-0" style="background-color: rgb(34, 34, 34);">
+                                    <button class="btn btn-warning bi bi-arrow-right rounded-0"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-7 me-4">
+                                <div class="fw-bold fs-4 mb-4">Instragram Feed</div>
+                                <div>
+                                    <div class="row mb-2" style="height: 60px;">
+                                        <div class="col me-2" style="background-image: url(public/images/i1.jpg); background-size: cover;"></div>
+                                        <div class="col me-2" style="background-image: url(public/images/i2.jpg); background-size: cover;"></div>
+                                        <div class="col me-2" style="background-image: url(public/images/i3.jpg); background-size: cover;"></div>
+                                        <div class="col" style="background-image: url(public/images/i4.jpg); background-size: cover;"></div>
+                                    </div>
+                                    <div class="row mb-2" style="height: 60px;">
+                                        <div class="col me-2" style="background-image: url(public/images/i5.jpg); background-size: cover;"></div>
+                                        <div class="col me-2" style="background-image: url(public/images/i6.jpg); background-size: cover;"></div>
+                                        <div class="col me-2" style="background-image: url(public/images/i7.jpg); background-size: cover;"></div>
+                                        <div class="col" style="background-image: url(public/images/i8.jpg); background-size: cover;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="fw-bold fs-4 mb-4">Follow Us</div>
+                                <div  style="color: grey;" class="mb-3">Let us be social</div>
+                                <div  style="color: grey;" class="d-flex justify-content-between">
+                                    <a href="#"><span class="bi bi-facebook"></span></a>
+                                    <a href="#"><span class="bi bi-twitch"></span></a>
+                                    <a href="#"><span class="bi bi-instagram"></span></a>
+                                    <a href="#"><span class="bi bi-twitter-x"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 100px; color: gray;">Copyright ©2023 All rights reserved | This template is made with <span class="bi bi-heart-fill text-warning"></span> by <a href="#" style="text-decoration: unset;"><span class="text-warning">Chintamani Choudhury</span></a></div>
+        </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
