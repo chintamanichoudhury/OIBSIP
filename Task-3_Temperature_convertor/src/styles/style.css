@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-image: url(/public/images/celsius-convert.jpg);
+    color: #222;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+  }
+  .container{
+    border-radius: 25px;
+    width: 700px;
+    background: #fafbfb;
+    overflow: hidden;
+  }
+  .title {
+    color: #222;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    margin-bottom: 20px;
+  }
+  .temperature-converter {
+    padding: 30px;
+    width: 100%;
+  }
+  .result {
+    text-align: center;
+  }
+  .result-heading {
+    color: #f48e0a;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .celsius-value{
+    height: 60px;
+    padding: 10px;
+  }
+  input,
+  select {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #29dcf4;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  .degree-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .degree{
+    color: #f48e0a;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .degree-field {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+  }
+  .temp-field{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+  }
+  .type{
+    color: #f48e0a;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  option {
+    background-color: #29dcf4;
+    color: #f6f6f6;
+  }
+  #convert-btn {
+    background:#29dcf4;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #f6f6f6;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 12px 80px;
+    width: 100%;
+  }
+ 
